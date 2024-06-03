@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_vlc_player/flutter_vlc_player.dart';
 import 'package:subtitle_wrapper_package/bloc/subtitle/subtitle_bloc.dart';
 import 'package:subtitle_wrapper_package/subtitle_wrapper_package.dart';
-import 'package:video_player/video_player.dart';
-import 'package:flutter_vlc_player/flutter_vlc_player.dart';
 
 class SubtitleWrapper extends StatelessWidget {
   const SubtitleWrapper({
