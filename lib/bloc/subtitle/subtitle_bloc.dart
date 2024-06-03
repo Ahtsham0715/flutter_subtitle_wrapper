@@ -25,7 +25,7 @@ class SubtitleBloc extends Bloc<SubtitleEvent, SubtitleState> {
     );
   }
 
-  final VideoPlayerController videoPlayerController;
+  final VlcPlayerController videoPlayerController;
   final SubtitleRepository subtitleRepository;
   final SubtitleController subtitleController;
 
